@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.fulltable{
+    font-family: 'Poppins', sans-serif;
+  }
+table {
+    margin: auto;
+    padding: 20px;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: burlywood;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
